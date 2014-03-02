@@ -1,0 +1,12 @@
+package com.caltrainapp.proto;
+
+message BumpReport {
+  enum Direction {
+    NORTH_BOUND = 1;
+    SOUTH_BOUND = 2;
+  }
+  optional Direction direction = 1;
+  optional string train_id = 2;
+  optional int32 num_bumped = 3;
+  optional int64 timestamp_millis = 4;
+}
