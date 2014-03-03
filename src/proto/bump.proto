@@ -7,6 +7,7 @@ message BumpReport {
   }
   optional Direction direction = 1;
   optional string train_id = 2;
+  optional string station_name = 5;
   optional int32 num_bumped = 3;
   optional int64 timestamp_millis = 4;
 }
