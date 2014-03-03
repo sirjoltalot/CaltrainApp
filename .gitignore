@@ -5,5 +5,9 @@
 *.war
 *.ear
 
-.settings/*.protobuf.*
+# Eclipse setup stuff
+.classpath
+.settings/**
+
+# Generated code
 src-gen/**
